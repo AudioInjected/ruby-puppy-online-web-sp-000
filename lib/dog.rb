@@ -18,6 +18,6 @@ class Dog
   end
 
   def self.all
-   @@all.each {|dogs| puts dogs.name}
+   puts @@all
   end
 end
